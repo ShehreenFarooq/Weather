@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+    </style>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first">
+        <h1>Weather App</h1>
+        <div class="searchbox">
+            <input class="card input" type="text" placeholder="Search City...">
+          <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="white" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m21 21-4.34-4.34" />
+                <circle cx="11" cy="11" r="8" />
+            </svg>
+        </div>
+    </div>
+
+   <div class="card card1">
+  <div class="cardfix">
+    
+    <div class="te">
+      <div class="svg1">
+         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" color="white" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+                <circle cx="12" cy="10" r="3"/>
+            </svg>
+        <div class="location">New York, USA</div>
+      </div>
+      <div class="date"></div>
+      <div class="temp">24&deg;C</div>
+      <div class="svg2">
+        <div class="cond">Partly Cloudy</div>
+      </div>
+    </div>
+    
+    <div class="main-weather-icon">
+        <img class="svvgg" src="" alt="" style="width:clamp(70px,12vw,128px);height:clamp(70px,12vw,128px);object-fit:contain;">
+    </div>
+    
+  </div>
+
+        <div class="cardss">
+            <!-- Humidity card -->
+            <div class="cards imgfix">
+                <div class="img1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" width="24" height="24" alt="Humidity">
+                </div>
+                <div class="textt">
+                <div class="t1">Humidity</div>
+                <div class="t2">60%</div>
+            </div></div>
+
+            <!-- Wind card -->
+            <div class="cards imgfix">
+                <div class="img1">
+                    <img src="https://cdn-icons-png.flaticon.com/512/959/959711.png" width="24" height="24" alt="Wind">
+                </div>
+                <div class="textt">
+                <div class="t1">Wind</div>
+                <div class="t2">12 km/h</div>
+            </div></div>
+
+            <!-- Pressure card -->
+            <div class="cards">
+                <div class="img1 imgfix">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2011/2011448.png" width="24" height="24" alt="Pressure">
+                </div>
+                <div class="text">
+                <div class="t1">Pressure</div>
+                <div class="t2">1012 hPa</div>
+            </div></div>
+        </div>
+    </div>
+
+    <h1>5-Day Forecast</h1>
+    <div class="last">
+
+        <!-- Monday - Sunny -->
+        <div class="card card3">
+            <div class="t3"></div>
+            <div class="img4">
+                <img src="" alt="" style="width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px);object-fit:contain;">
+            </div>
+            <div class="tt">Max temp</div>
+            <div class="t4"></div>
+        </div>
+
+        <!-- Tuesday - Rainy -->
+        <div class="card card3">
+            <div class="t3"></div>
+            <div class="img4">
+                <img src="" alt="" style="width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px);object-fit:contain;">
+            </div>
+            <div class="t4"></div>
+        </div>
+
+        <!-- Wednesday - Thunderstorm -->
+        <div class="card card3">
+            <div class="t3"></div>
+            <div class="img4">
+                <img src="" alt="Thunderstorm" style="width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px);object-fit:contain;">
+            </div>
+            <div class="t4"></div>
+        </div>
+
+        <!-- Thursday - Partly Cloudy -->
+        <div class="card card3">
+            <div class="t3"></div>
+            <div class="img4">
+                <img src="" alt="Partly Cloudy" style="width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px);object-fit:contain;">
+            </div>
+            <div class="t4"></div>
+        </div>
+
+        <!-- Friday - Cloudy -->
+        <div class="card card3">
+            <div class="t3"></div>
+            <div class="img4">
+                <img src="" alt="Cloudy" style="width:clamp(44px,8vw,60px);height:clamp(44px,8vw,60px);object-fit:contain;">
+            </div>
+            <div class="t4"></div>
+        </div>
+
+    </div>
+
+    <div class="lastt"><p>Made with ❤️ by Shehreen Farooq</p></div>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
