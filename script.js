@@ -33,7 +33,7 @@ let cards=document.querySelectorAll(".card3")
 console.log(cards.length)
 for (let i = 0; i < days.length; i++){
     const day=days[i]
-    const date=new Date(day.dt_txt)
+    const date=new Date(day.dt*1000)
     let dayname
     if(i==0){
         dayname="Today"
